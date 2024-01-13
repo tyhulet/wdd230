@@ -1,8 +1,71 @@
-.h1{
-    text-align: center;
+body{
+    font-family: 'Work Sans', sans-serif;
     
 }
-.img{
-    width: 50%;
 
+header{
+    background-color: #1d4d72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
+
+header img{
+    display: flex;
+    width: 30%;
+    max-width: 100px;
+}
+
+header h1{
+    
+    display: flex;
+    margin-left: 1rem;
+    color: white;
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 175px;
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav li a{
+    color: white;
+}
+
+main{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.card {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+    border: black;
+    border-radius: 15%;
+}
+
+.card h3{
+    text-align: center;
+    background-color: #1d4d72;
+    padding: 10px;
+    color: white;
+    margin-top: 0;
+}
+p{
+    text-align: center;
+}
+
