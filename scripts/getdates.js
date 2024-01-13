@@ -1,1 +1,1 @@
-document.querySelector('last').textContent = document.lastModified
+document.getElementById('lastModified').textContent = document.lastModified

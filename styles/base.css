@@ -89,14 +89,10 @@ p {
 }
 
 footer {
-    text-align: center;
     background-color: #1d4d72;
-    display: flex;
-    margin: auto;
-
 }
 
 footer p {
     color: white;
-
+    text-align: center;
 }
