@@ -71,6 +71,10 @@ h2 {
     border-width: 1px;
 }
 
+.card li a {
+    color: blue;
+}
+
 .card h3 {
     text-align: center;
     background-color: #00b3b3;
