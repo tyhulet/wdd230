@@ -57,7 +57,7 @@ main {
     grid-template-rows: auto auto 1fr 1fr;
     justify-items: center;
     justify-content: center;
-    width: 70%;
+    width: 50%;
 }
 
 h2 {
