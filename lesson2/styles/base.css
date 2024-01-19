@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background-color: #03a2a2;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1,
+header h2 {
+    margin-left: 1rem;
+    color: black;
+}
+
+main {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    width: 80%;
+    gap: 10px
+}
+
+section {
+    background-color: lightgray;
+    text-align: left;
+    width: 100%;
+    align-items: center;
+}
+
+section img {
+    max-width: 125%;
+    margin: 10px auto;
+    display: block;
+    height: 50%;
+}
+
+section a,
+section p {
+    margin: 10px;
+}
+
+section h3 {
+    background-color: #03a2a2;
+    padding: 5px;
+    color: white;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #03a2a2;
+    padding: 10px;
+    color: white;
+}
