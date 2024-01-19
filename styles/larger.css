@@ -9,6 +9,7 @@
 
     nav {
         height: 50px;
+        flex-direction: row;
     }
 
     main {
