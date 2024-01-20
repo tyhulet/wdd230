@@ -4,13 +4,12 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Work Sans', sans-serif;
+    width: 100%;
 }
 
 header {
     background-color: #00b3b3;
     display: block;
-    text-align: center;
-    justify-content: center;
     padding: 1rem;
 }
 
@@ -18,13 +17,13 @@ header h1,
 header h2 {
     margin-left: 1rem;
     color: black;
+    text-align: center;
 }
 
 main {
     margin: 20px auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
     justify-items: center;
     width: 80%;
     gap: 10px
@@ -38,10 +37,10 @@ section {
 }
 
 section img {
-    max-width: 95%;
+    width: 95%;
     margin: 10px auto;
     display: block;
-    height: 60%;
+    height: auto;
 }
 
 section a,
