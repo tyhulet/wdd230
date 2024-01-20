@@ -11,6 +11,9 @@
         width: 400px;
     }
 
+    header {
+        width: 100%;
+    }
 
     section img {
         max-width: 100%;
