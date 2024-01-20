@@ -6,4 +6,13 @@
     main section:nth-child(3) {
         grid-column: 3/4;
     }
+
+    section {
+        width: 400px;
+    }
+
+
+    section img {
+        max-width: 100%;
+    }
 }

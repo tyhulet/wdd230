@@ -32,12 +32,12 @@ main {
 section {
     background-color: lightgray;
     text-align: left;
-    width: 100%;
+    width: 500px;
     align-items: center;
 }
 
 section img {
-    max-width: 125%;
+    max-width: 95%;
     margin: 10px auto;
     display: block;
     height: 50%;
