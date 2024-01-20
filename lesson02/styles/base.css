@@ -10,7 +10,7 @@ header {
     background-color: #03a2a2;
     display: block;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 header h1,
@@ -40,7 +40,7 @@ section img {
     max-width: 95%;
     margin: 10px auto;
     display: block;
-    height: 50%;
+    height: 60%;
 }
 
 section a,
