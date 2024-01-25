@@ -142,8 +142,8 @@ footer p {
 }
 
 .navigation a:hover {
-    background-color: #bbb;
-    color: #333;
+    background-color: lightgrey;
+    color: black;
     font-weight: 700;
 }
 
