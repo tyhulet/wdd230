@@ -1,0 +1,32 @@
+@media screen and (min-width: 800px) {
+    .hero img {
+        width: 1650px;
+        height: 650px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav {
+        height: 50px;
+        flex-direction: row;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation li a {
+        display: block;
+        flex: 1 1 100%;
+    }
+}
