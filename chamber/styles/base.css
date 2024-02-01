@@ -33,12 +33,23 @@ nav {
     grid-template-rows: 1fr;
 }
 
+.weather {
+    margin-left: 5px;
+    width: 350px;
+    height: 300px;
+    background-color: #B2A9AB;
+    text-align: center;
+}
+
 .mission {
+    margin: auto;
     grid-column: 4/4;
     grid-row: 3/4;
     background-color: #B2A9AB;
     justify-content: center;
     text-align: center;
+    width: 350px;
+    height: 300px;
 }
 
 
