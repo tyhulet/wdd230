@@ -21,10 +21,23 @@ nav {
     flex-direction: row;
 }
 
+
 .hero img {
     width: 430px;
     height: 400px;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.mission {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+
 
 footer {
     background-color: #32AE99;
