@@ -29,14 +29,17 @@ nav {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 .mission {
-    grid-column: 1/4;
-    grid-row: 1;
+    grid-column: 4/4;
+    grid-row: 3/4;
+    background-color: #B2A9AB;
+    justify-content: center;
+    text-align: center;
 }
-
 
 
 footer {
