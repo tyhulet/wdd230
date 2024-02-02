@@ -3,6 +3,12 @@
 
 body {
     margin: auto;
+    background-color: lightgray;
+}
+
+p {
+    font-family: "Bebas Neue, sans-serif";
+    font-size: 16px;
 }
 
 header {
@@ -37,7 +43,7 @@ nav {
 
 .weather {
     margin: auto;
-    width: 450px;
+    width: 550px;
     height: 400px;
     background-color: #95B2A7;
     text-align: center;
@@ -54,6 +60,12 @@ nav {
     height: 300px;
 }
 
+.join {
+    width: 150px;
+    font-family: "DM Serif Display', serif";
+    font-size: 20px;
+}
+
 .event h2 {
     margin-bottom: -15px;
 }
@@ -62,7 +74,7 @@ nav {
     margin: auto;
     background-color: #95B2A7;
     text-align: center;
-    width: 450px;
+    width: 550px;
     margin-top: 1px;
     border: 10px solid black;
 }
@@ -78,6 +90,21 @@ nav {
     padding-top: 1rem;
 }
 
+.business2 {
+    margin: auto;
+    width: 350px;
+    height: 400px;
+    background-color: #95B2A7;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 1rem;
+}
+
+#member {
+    background-color: #000000;
+    color: azure;
+}
 
 footer {
     margin: auto;
@@ -87,12 +114,14 @@ footer {
     color: #000000;
     padding: 5px;
     width: 100%;
+    text-align: center;
 }
 
 
 footer p {
+    font-family: "Bebas Neue, sans-serif";
     color: black;
-    text-align: right;
+    text-align: center;
     margin-right: 25px;
 }
 
