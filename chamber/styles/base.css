@@ -48,7 +48,7 @@ nav {
     background-color: #95B2A7;
     justify-content: center;
     text-align: center;
-    width: 350px;
+    width: 450px;
     height: 300px;
 }
 
@@ -56,16 +56,26 @@ nav {
     margin-bottom: -15px;
 }
 
+.banner {
+    margin: auto;
+    background-color: #95B2A7;
+    text-align: center;
+    width: 450px;
+    margin-top: 15px;
+}
 
 footer {
+    display: block;
     font-family: 'DM Serif Display', serif;
     background-color: #32AE99;
     color: #000000;
     padding: 5px;
 }
 
+
 footer p {
     text-align: center;
+    margin-top: -25px;
 }
 
 #menu {

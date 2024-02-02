@@ -20,7 +20,12 @@
 
     .mission {
         margin: auto;
-        grid-column: 3/4;
+        grid-column: 2/4;
+    }
+
+    .banner {
+        grid-column: 0/2;
+        grid-row: 2;
     }
 
     nav ul {
