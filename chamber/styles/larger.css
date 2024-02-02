@@ -22,6 +22,7 @@
         margin: auto;
         grid-column: 2/3;
         width: 700px;
+        height: 400px;
     }
 
     .weather {

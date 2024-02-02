@@ -6,11 +6,13 @@ body {
 }
 
 header {
+    margin: auto;
     display: flex;
     font-family: 'DM Serif Display', serif;
     justify-content: center;
     background-color: #32AE99;
     padding: 1rem;
+    width: 100%;
 }
 
 nav {
@@ -71,23 +73,27 @@ nav {
     height: 400px;
     background-color: #95B2A7;
     text-align: center;
-    margin-top: 1px;
+    margin-top: 10px;
     margin-bottom: 5px;
+    padding-top: 1rem;
 }
 
 
 footer {
+    margin: auto;
     display: block;
     font-family: 'DM Serif Display', serif;
     background-color: #32AE99;
     color: #000000;
     padding: 5px;
+    width: 100%;
 }
 
 
 footer p {
     color: black;
-    text-align: center;
+    text-align: right;
+    margin-right: 25px;
 }
 
 #menu {
