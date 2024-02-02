@@ -6,16 +6,14 @@ body {
 }
 
 header {
+    display: flex;
     font-family: 'DM Serif Display', serif;
-    display: block;
     justify-content: center;
-    text-align: center;
     background-color: #32AE99;
     padding: 1rem;
 }
 
 nav {
-
     text-align: center;
     background-color: #32AE99;
     color: #000000;
@@ -24,6 +22,7 @@ nav {
 
 
 .hero img {
+    display: flex;
     width: 430px;
     height: 400px;
 }
@@ -36,21 +35,25 @@ nav {
 
 .weather {
     margin: auto;
-    width: 350px;
-    height: 300px;
-    background-color: #B2A9AB;
+    width: 450px;
+    height: 400px;
+    background-color: #95B2A7;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 15px;
-
 }
 
 .mission {
     margin: auto;
-    background-color: #B2A9AB;
+    background-color: #95B2A7;
     justify-content: center;
     text-align: center;
     width: 350px;
     height: 300px;
+}
+
+.mission h2 {
+    margin-bottom: -15px;
 }
 
 
