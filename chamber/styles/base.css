@@ -32,6 +32,10 @@ nav {
     height: 400px;
 }
 
+.hero h6 {
+    color: lightgray;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr;
