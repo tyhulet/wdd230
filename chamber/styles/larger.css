@@ -14,13 +14,14 @@
 
     .grid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
-    .mission {
+    .event {
         margin: auto;
-        grid-column: 2/4;
+        grid-column: 2/3;
+        width: 700px;
     }
 
     .weather {
@@ -30,6 +31,12 @@
     .banner {
         grid-column: 0/2;
         grid-row: 2;
+    }
+
+    .business {
+        grid-column: 0/2;
+        grid-row: 3;
+        margin-top: -300px;
     }
 
     nav ul {

@@ -43,7 +43,7 @@ nav {
     margin-bottom: 15px;
 }
 
-.mission {
+.event {
     margin: auto;
     background-color: #95B2A7;
     justify-content: center;
@@ -52,7 +52,7 @@ nav {
     height: 300px;
 }
 
-.mission h2 {
+.event h2 {
     margin-bottom: -15px;
 }
 
@@ -61,8 +61,20 @@ nav {
     background-color: #95B2A7;
     text-align: center;
     width: 450px;
-    margin-top: 15px;
+    margin-top: 1px;
+    border: 10px solid black;
 }
+
+.business {
+    margin: auto;
+    width: 350px;
+    height: 400px;
+    background-color: #95B2A7;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
 
 footer {
     display: block;
