@@ -1,15 +1,23 @@
 @media screen and (min-width: 650px) {
     header {
-        width: 100%;
+        width: 900px;
     }
 
     .hero img {
-        width: 100%;
+        width: 900px;
     }
 
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .weather {
+        grid-column: 1/2;
+    }
+
+    .mission {
+        grid-column: 2/3;
     }
 
     #menu {

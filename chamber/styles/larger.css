@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 850px) {
     header {
         margin: auto;
         width: 100%;
@@ -21,6 +21,10 @@
     .mission {
         margin: auto;
         grid-column: 2/4;
+    }
+
+    .weather {
+        grid-column: 1/2;
     }
 
     .banner {
