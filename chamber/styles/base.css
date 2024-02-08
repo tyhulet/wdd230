@@ -27,9 +27,8 @@ nav {
 
 
 .hero img {
-    display: flex;
-    width: 430px;
-    height: 400px;
+    width: 100%;
+    height: auto;
 }
 
 .hero h6 {
@@ -58,7 +57,7 @@ nav {
     justify-content: center;
     text-align: center;
     width: 450px;
-    height: 450px;
+    height: 415px;
 }
 
 .join {
@@ -93,6 +92,7 @@ nav {
 
 .business2 {
     margin: auto;
+    justify-content: center;
     width: 350px;
     height: 400px;
     background-color: #95B2A7;
