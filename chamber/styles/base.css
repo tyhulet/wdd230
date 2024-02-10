@@ -3,7 +3,11 @@
 
 body {
     margin: auto;
+}
+
+main {
     background-color: lightgray;
+    margin-top: -25px;
 }
 
 header {
