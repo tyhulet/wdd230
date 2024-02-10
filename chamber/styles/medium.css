@@ -22,7 +22,7 @@
 
     .weather {
         grid-column: span 2;
-
+        margin-right: 10px;
     }
 
     .event {
