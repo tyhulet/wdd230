@@ -16,7 +16,17 @@ header {
     width: 100%;
 }
 
+#mode {
+    position: absolute;
+    background-color: #B2A9AB;
+    border-color: #32AE99;
+    border-radius: 40%;
+    right: 50px;
+}
+
 nav {
+    width: 100%;
+    height: auto;
     text-align: center;
     background-color: #32AE99;
     color: #000000;
@@ -61,12 +71,13 @@ nav {
 .join {
     position: absolute;
     margin-top: 50px;
-    background-color: #32AE99;
+    background-color: lightgray;
     left: 10px;
     width: 150px;
     font-family: "DM Serif Display', serif";
     font-size: 20px;
-    outline: #32AE99;
+    outline: black;
+    border-radius: 45%;
 }
 
 .event h2 {
@@ -153,6 +164,9 @@ footer p {
     list-style: none;
     background-color: #32AE99;
     color: #000000;
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
 }
 
 .navigation a {
