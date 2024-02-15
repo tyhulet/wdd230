@@ -26,6 +26,29 @@ header h1 {
     font-family: 'DM Serif Display', serif;
 }
 
+.hero {
+    margin-top: 100px;
+}
+
+.hero img {
+    width: 100%;
+    margin-top: 15px;
+    object-fit: cover;
+}
+
+.herolabel {
+    position: absolute;
+    top: 450px;
+    left: 2px;
+    background: #acbdd9;
+    padding: 5px;
+    border: 1px solid #000000;
+}
+
+.herolabel p {
+    font-size: 15px;
+}
+
 nav {
     font-family: 'DM Serif Display', serif;
     text-align: center;
@@ -68,7 +91,8 @@ h2 {
 .card {
     margin-bottom: 20px;
     text-align: left;
-    width: 100%;
+    width: 95%;
+    height: auto;
     border-style: solid;
     border-width: 1px;
 }

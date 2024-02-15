@@ -1,4 +1,4 @@
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 960px) {
     nav ul {
         display: flex;
     }
@@ -10,6 +10,30 @@
     nav {
         height: 50px;
         flex-direction: row;
+    }
+
+    main {
+        max-width: 960px;
+    }
+
+    .hero img {
+        width: 800px;
+        height: auto;
+        justify-self: center;
+        margin-left: 250px;
+    }
+
+    .herolabel {
+        position: absolute;
+        top: 340px;
+        left: 340px;
+        background: #acbdd9;
+        padding: 5px;
+        border: 1px solid #000000;
+    }
+
+    .herolabel p {
+        font-size: 22px;
     }
 
     main {
