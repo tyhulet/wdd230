@@ -39,6 +39,10 @@ nav {
     margin-bottom: -5px;
 }
 
+.hero {
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
 
 .hero img {
     width: 100%;
@@ -81,7 +85,7 @@ nav {
 
 .join {
     position: absolute;
-    margin-top: 50px;
+    margin-top: 35px;
     background-color: lightgray;
     left: 10px;
     width: 150px;

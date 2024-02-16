@@ -34,11 +34,13 @@
             <li><a href="chamber/">Join</a></li>
         </ul>
     </nav>
-    <section class="hero">
+    <div class="hero">
         <button class="join">Join</button>
-        <img src="images/hero-img.jpg" alt="imageofpayson">
-        <h6>.</h6>
-    </section>
+        <picture>
+            <source srcset="images/hero-medium.webp" media="(max-width: 715px)">
+            <img src="images/hero-large.webp" alt="meeting" width="1500" height="750">
+        </picture>
+    </div>
     <main class="grid">
         <section class="weather">
             <h2>Weather</h2>
