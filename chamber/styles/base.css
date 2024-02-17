@@ -8,6 +8,7 @@ body {
 main {
     background-color: lightgray;
     margin-top: -25px;
+    width: 100%;
 }
 
 header {
@@ -103,7 +104,7 @@ nav {
     margin: auto;
     background-color: #95B2A7;
     text-align: center;
-    width: 550px;
+    width: 200px;
     margin-top: 25px;
     border: 10px solid black;
 }

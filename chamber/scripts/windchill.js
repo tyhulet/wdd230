@@ -1,15 +1,10 @@
-function doInputOutput() {
-    let temperature = 45;
-    let windspeed = 10;
-    if (temperature <= 50 && windspeed >= 3) {
-        output = windChill(temperature, windspeed);
-    } else {
-        output = `N/A`
-    }
-    document.getElementById('windchill').innerHTML = "Wind Chill: ${output}";
+let tempF = document.getElementById("temp").innerHTML;
+let wind = document.getElementById("speed").innerHTML;
+
+if (tempF <= 50 && wind >= 3) {
+    let windChill = 35.74 + 0.6215 * tempF - 35.75 * Math.pow(wind, 0.16) + 0.4275 * tempF * Math.pow(wind, 0.16);
+    document.getElementById("windchill").innerHTML = windChill.toFixed(0) + '°F';
+} else {
+    document.getElementById("windchill").innerHTML = `N/A`;
 }
 
-function windChill(tempF, speed) {
-    let f = 35.74 + 0.6215 * tempF - 35.75 * Math.pow(speed, 0.16) + 0.4275 * tempF * Math.pow(speed, 0.16);
-    return f;
-}
