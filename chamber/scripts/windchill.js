@@ -3,7 +3,7 @@ let wind = document.getElementById("speed").innerHTML;
 
 if (tempF <= 50 && wind >= 3) {
     let windChill = 35.74 + 0.6215 * tempF - 35.75 * Math.pow(wind, 0.16) + 0.4275 * tempF * Math.pow(wind, 0.16);
-    document.getElementById("windchill").innerHTML = windChill.toFixed(0) + '°F';
+    document.getElementById("windchill").innerHTML = windChill.toFixed(0) + "°F";
 } else {
     document.getElementById("windchill").innerHTML = `N/A`;
 }
