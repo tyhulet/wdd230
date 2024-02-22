@@ -41,10 +41,9 @@ header h1 {
     top: 450px;
     left: 2px;
     background: #acbdd9;
-    padding: 5px;
     border: 1px solid #000000;
+    height: 50px;
 }
-
 
 
 nav {
