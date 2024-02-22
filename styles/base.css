@@ -124,13 +124,13 @@ p {
 
 footer {
     background-color: #00b3b3;
-}
-
-footer p {
     color: black;
     text-align: center;
     font-weight: bold;
+    height: 100px;
 }
+
+
 
 #menu {
     font-size: 1.5rem;
