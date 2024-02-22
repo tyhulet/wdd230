@@ -110,9 +110,8 @@ h2 {
     font-family: 'DM Serif Display', serif;
 }
 
-.card p {
-    font-size: 20px;
-    font-weight: bold;
+.card h4 {
+    text-align: center;
 }
 
 p {
