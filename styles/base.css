@@ -140,7 +140,9 @@ footer {
     right: 1rem;
 }
 
-
+#menu::before {
+    content: "☰";
+}
 
 #menu.open::before {
     content: "☑";
