@@ -87,4 +87,25 @@
         display: block;
         flex: 1 1 100%;
     }
+
+    .dis-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .events {
+        grid-column: 1;
+        grid-row: 1;
+        margin-right: 325px;
+    }
+
+    .population {
+        grid-column: 1;
+        grid-row: 2;
+        margin-right: 325px;
+    }
+
+
+
 }

@@ -3,12 +3,14 @@
 
 body {
     margin: auto;
+    background-color: lightgray;
 }
 
 main {
     background-color: lightgray;
     margin-top: -25px;
     width: 100%;
+    height: auto;
 }
 
 header {
@@ -199,4 +201,41 @@ footer p {
 
 .open a {
     display: block;
+}
+
+/* discover page css*/
+
+.dis-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.herobanner {
+    text-align: center;
+    background-color: lightgray;
+}
+
+.events {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: #95B2A7;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #000000;
+}
+
+.population {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: #95B2A7;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #000000;
 }
