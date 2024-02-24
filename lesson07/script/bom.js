@@ -19,7 +19,11 @@ button.addEventListener('click', function () {
     input.value = '';
 });
 
-
-
-
-
+btn.addEventListener('click', () => {
+    if (input.value != '') {
+        displayList(input.value);
+        chaptersArray.push(input.value);
+        localStorage.setItem('myFavChapters', JSON.stringify(chaptersArray));
+        input.value = '';
+    }
+});
