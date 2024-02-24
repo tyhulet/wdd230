@@ -88,16 +88,26 @@
         flex: 1 1 100%;
     }
 
+    /* discover page css*/
+
     .dis-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
 
+    #visit {
+        margin-left: 125px;
+        margin-top: -10px;
+        font-size: larger;
+    }
+
     .events {
         grid-column: 1;
         grid-row: 1;
         margin-left: 125px;
+        width: 250px;
+        height: 350px;
     }
 
     .population {
@@ -124,7 +134,7 @@
     }
 
     .image1:hover {
-        box-shadow: 0 0 25px #32AE99;
+        box-shadow: 0 0 35px #32AE99;
     }
 
     .image2 {
@@ -135,9 +145,56 @@
         height: auto;
     }
 
-
     .image2:hover {
-        box-shadow: 0 0 25px #32AE99;
+        box-shadow: 0 0 35px #32AE99;
     }
 
+    .image3 {
+        grid-column: 2;
+        grid-row: 2;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+
+    .image3:hover {
+        box-shadow: 0 0 35px #32AE99;
+    }
+
+    .image4 {
+        grid-column: 3;
+        grid-row: 2;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+
+    .image4:hover {
+        box-shadow: 0 0 35px #32AE99;
+    }
+
+
+    .image5 {
+        grid-column: 2;
+        grid-row: 3;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+
+    .image5:hover {
+        box-shadow: 0 0 35px #32AE99;
+    }
+
+    .image6 {
+        grid-column: 3;
+        grid-row: 3;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+
+    .image6:hover {
+        box-shadow: 0 0 35px #32AE99;
+    }
 }
