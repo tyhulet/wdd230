@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tyler Hulet - WDD 230 - Web Frontend Development</title>
     <meta name="author" content="Tyler Hulet">
-    <meta name="description"
-        content="WDD 230 - Web Frontend Development, Tyler Hulet, My homepage to be used over for WDD 230.">
+    <meta name="description" content="WDD 230 - Web Frontend Development Form assigiment">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
     <meta property="og:title" content="Tyler Hulet - WDD 230 - Form Example assigiment">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://th.bing.com/th/id/OIP.cQIgnRSNopHJOE1l6tfDHwHaE7?rs=1&pid=ImgDetMain">
+
     <meta property="og:url" content="https://tyhulet.github.io/wdd230/">
 </head>
 
@@ -39,7 +38,46 @@
         </ul>
     </nav>
     <main>
+        <h2>User Information</h2>
+        <form action="record.html" method="get">
+            <fieldset>
+                <label for="userName" title="Use must enter your user name">User Name
+                    <input type="text" id="userName" name="userName" required></label>
 
+                <label for="password">Password
+                    <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}"
+                        title="Your unique username must be 8-20 characters long." required></label>
+
+                <label for="password">Reenter Password
+                    <input type="password" id="password2" name="password2" title="Your passwords must match."
+                        required></label>
+
+                <!-- Error message placeholder -->
+                <div id="passwordError" class="errorMessage">Passwords do not match.</div>
+
+                <label for="email">Email
+                    <input type="email" id="email" name="email" placeholder="someone@byui.edu"
+                        title="Please enter a valid BYU-Idaho address" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu"
+                        required></label>
+                <div id="rangevalue"></div>
+                <label for="r">Range
+                    <input type="range" id="r" name="r" min="1" max="10" value="1" step="1" list="rangevalues"></label>
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+
+            </fieldset>
+            <input type="submit" value="Provide Feedback" class="submitBtn">
+        </form>
     </main>
 
     <footer>
