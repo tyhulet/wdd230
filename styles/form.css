@@ -164,6 +164,10 @@ footer {
     box-shadow: 1px 1px 4px lightslategrey;
 }
 
+.form input:hover {
+    background-color: lightgray;
+}
+
 .form input:required {
     border-bottom: solid 5px red;
 }
