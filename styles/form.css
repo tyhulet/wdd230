@@ -139,7 +139,8 @@ footer {
 }
 
 .form input[type="text"],
-.form input[type="email"] {
+.form input[type="email"],
+.form input[type="password"] {
     background-color: whitesmoke;
     border: 2px solid black;
     border-radius: 8px;
