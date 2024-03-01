@@ -303,3 +303,62 @@ footer p {
     align-content: center;
     text-align: center;
 }
+
+
+/*----------- Join page--------------*/
+
+.join-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.np h2 {
+    text-align: center;
+}
+
+.np {
+    margin: 70px;
+    width: 430px;
+    height: 200px;
+    background-color: #95B2A7;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #000000;
+    align-self: center;
+}
+
+.bronze h2 {
+    text-align: center;
+}
+
+.bronze {
+    margin: 70px;
+    width: 430px;
+    height: 250px;
+    background-color: #CD7F32;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #000000;
+    align-self: center;
+}
+
+.silver h2 {
+    text-align: center;
+}
+
+.silver {
+    margin: 70px;
+    width: 430px;
+    height: 250px;
+    background-color: #C0C0C0;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #000000;
+    align-self: center;
+}
