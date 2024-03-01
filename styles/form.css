@@ -1,0 +1,172 @@
+header {
+    display: flex;
+    background-color: #00b3b3;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+header img {
+    display: flex;
+    width: 30%;
+    max-width: 100px;
+}
+
+header h1 {
+    display: flex;
+    margin-left: 1rem;
+    color: black;
+    font-family: 'DM Serif Display', serif;
+}
+
+nav {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 160px;
+    font-size: 25px;
+    margin-top: -25px;
+    margin-bottom: -10px;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li a {
+    color: white;
+}
+
+li a:link {
+    color: white;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 50px;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    color: black;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "☑";
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: black;
+    color: #fff;
+}
+
+.navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation a:hover {
+    background-color: lightgrey;
+    color: black;
+    font-weight: 700;
+}
+
+.open a {
+    display: block;
+}
+
+.active::before {
+    content: "📌";
+}
+
+
+footer {
+    background-color: #00b3b3;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+}
+
+
+
+/*----------- Form styling --------------*/
+.form {
+    display: block;
+}
+
+.form {
+    margin: 3rem 0;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 1rem 2%;
+}
+
+.form legend {
+    color: blue;
+    padding: 0 .8rem;
+}
+
+.form label {
+    display: block;
+    padding-top: 1rem;
+    color: darkred;
+    font-size: .9rem;
+}
+
+.form div {
+    padding-top: 1rem;
+    color: darkblue;
+    font-size: .9rem;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: .80rem;
+    color: black;
+    width: 90%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.form input[type="submit"] {
+    border: none;
+    background-color: lightcoral;
+    color: black;
+    border-radius: 10px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    margin-top: 10px;
+    box-shadow: 1px 1px 4px lightslategrey;
+}
+
+.form input:required {
+    border-bottom: solid 5px red;
+}
+
+.form input:required:valid {
+    border-bottom: solid 5px lightgreen;
+}
