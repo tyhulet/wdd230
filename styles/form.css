@@ -164,7 +164,7 @@ footer {
     box-shadow: 1px 1px 4px lightslategrey;
 }
 
-.form input::placeholder {
+.form input:hover {
     color: blue;
 }
 
