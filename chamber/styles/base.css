@@ -311,9 +311,7 @@ footer p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    gap: 5px;
     margin-top: 5px;
-    width: 900px;
 }
 
 .np h2 {
@@ -321,7 +319,6 @@ footer p {
 }
 
 .np {
-    margin: 70px;
     width: 430px;
     height: 200px;
     background-color: #95B2A7;
@@ -337,7 +334,6 @@ footer p {
 }
 
 .bronze {
-    margin: 70px;
     width: 430px;
     height: 250px;
     background-color: #CD7F32;
@@ -353,7 +349,7 @@ footer p {
 }
 
 .silver {
-    margin: 70px;
+
     width: 430px;
     height: 250px;
     background-color: #C0C0C0;
@@ -366,12 +362,12 @@ footer p {
 
 
 .form {
-    width: 500px;
+    width: 450px;
     margin-top: 15px;
-    margin-left: 150px;
     background-color: #95B2A7;
     font-weight: bold;
     border-radius: 20px;
+    margin-bottom: 50px;
 }
 
 .join-form {

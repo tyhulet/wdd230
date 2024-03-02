@@ -65,19 +65,34 @@
                     ahead of industry trends.</li>
             </ul>
         </div>
-
         <div class="form">
             <form action="thankyou.html" method="get" class="join-form">
                 <fieldset>
-                    <label>First Name*<input type="text" name="fname" title="Enter your first name" required></label>
-                    <label>Last Name*<input type="text" name="lname" title="Enter your last name" required></label>
+                    <legend>New member sign up</legend>
+                    <label>First Name*<input type="text" name="fname" id="fname" title="Enter your first name"
+                            required></label>
+                    <label>Last Name*<input type="text" name="lname" id="lname" title="Enter your last name"
+                            required></label>
                     <label for="title">Title/Position
                         <input type="text" id="title" name="title" pattern="[A-Za-z\s\-0-9]{7,}" required
                             title="Title must be at least 7 characters long and can only contain alphanumeric characters, hyphens, and spaces."></label>
-                    <label>Email <input type="email" name="email" placeholder="someone@gmail.com"
+                    <label>Email <input type="email" name="email" id="email" placeholder="someone@gmail.com"
                             title="Enter your email address" required></label>
-                    <label>Phone Number <input type="tel" name="phone" placeholder="123456789"
+                    <label>Phone Number <input type="tel" name="phone" id="phone" placeholder="123456789"
                             title="Enter a phone number"></label>
+                    <label>Bussiness/Organization<input type="text" name="business" id="business"
+                            title="Enter your business name" required></label>
+
+                    <legend>Membership Tier</legend>
+                    <label class="sbs"><input type="radio" name="audience" value="np">NP Membership (cost $0)</label>
+                    <label class="sbs"><input type="radio" name="audience" value="bronze">Bronze Membership (Cost
+                        $100 monthly)</label>
+                    <label class="sbs"><input type="radio" name="audience" value="silver">Silver Membership (Cost
+                        $200 monthly)</label>
+                    <label class="sbs"><input type="radio" name="audience" value="gold">Gold Membership (Cost
+                        $300 monthly)</label>
+
+
 
                 </fieldset>
             </form>
