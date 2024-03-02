@@ -201,8 +201,17 @@
     /*----------- Join page--------------*/
     .join {
         display: grid;
-        grid-column: 1fr 1fr;
-        grid-row: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
+    .silver {
+        grid-column: 1;
+
+    }
+
+    .form {
+        grid-column: 2;
+        grid-row: 1/2;
+    }
 }
