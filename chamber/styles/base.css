@@ -399,7 +399,7 @@ footer p {
 
 .join-form input[type="text"],
 .join-form input[type="email"],
-.join-form input[type="password"] {
+.join-form input[type="tel"] {
     background-color: whitesmoke;
     border: 2px solid black;
     border-radius: 8px;
