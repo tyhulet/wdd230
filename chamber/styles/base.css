@@ -441,6 +441,10 @@ footer p {
     border-bottom: solid 8px #0bc809;
 }
 
+.join-form input[type="submit"]:hover {
+    background-color: lightgray;
+}
+
 /*----------- Thank you page--------------*/
 .thankyou {
     background-color: #95B2A7;
