@@ -69,11 +69,16 @@
         <div class="form">
             <form action="thankyou.html" method="get" class="join-form">
                 <fieldset>
-                    <label>First Name*<input type="text" name="fname" required title="Enter your first name"></label>
-                    <label>Last Name*<input type="text" name="lname" required title="Enter your last name"></label>
+                    <label>First Name*<input type="text" name="fname" title="Enter your first name" required></label>
+                    <label>Last Name*<input type="text" name="lname" title="Enter your last name" required></label>
                     <label for="title">Title/Position
-                        <input type="text" id="title" name="title" required pattern="[A-Za-z\s\-0-9]{7,}"
+                        <input type="text" id="title" name="title" pattern="[A-Za-z\s\-0-9]{7,}" required
                             title="Title must be at least 7 characters long and can only contain alphanumeric characters, hyphens, and spaces."></label>
+                    <label>Email <input type="email" name="email" placeholder="someone@gmail.com"
+                            title="Enter your email address" required></label>
+                    <label>Phone Number <input type="tel" name="phone" placeholder="123456789"
+                            title="Enter a phone number"></label>
+
                 </fieldset>
             </form>
         </div>
