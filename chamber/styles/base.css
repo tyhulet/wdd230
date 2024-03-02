@@ -432,3 +432,26 @@ footer p {
     margin-left: 40px;
     font-weight: bolder;
 }
+
+.join-form input:required {
+    border-bottom: solid 8px #be1e0a;
+}
+
+.join-form input:required:valid {
+    border-bottom: solid 8px #0bc809;
+}
+
+/*----------- Thank you page--------------*/
+.thankyou {
+    background-color: #95B2A7;
+    text-align: center;
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+}
+
+.thankyou p {
+    font-weight: bold;
+    font-size: large;
+    font-family: "Bebas Neue, sans-serif";
+}
