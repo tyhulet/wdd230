@@ -319,7 +319,7 @@ footer p {
 }
 
 .np {
-    width: 430px;
+    width: 450px;
     height: 200px;
     background-color: #95B2A7;
     text-align: left;
@@ -334,7 +334,7 @@ footer p {
 }
 
 .bronze {
-    width: 430px;
+    width: 450px;
     height: 250px;
     background-color: #CD7F32;
     text-align: left;
@@ -349,8 +349,7 @@ footer p {
 }
 
 .silver {
-
-    width: 430px;
+    width: 450px;
     height: 250px;
     background-color: #C0C0C0;
     text-align: left;
@@ -360,6 +359,20 @@ footer p {
     align-self: center;
 }
 
+.gold {
+    width: 450px;
+    height: 250px;
+    background-color: #FFD700;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #000000;
+    align-self: center;
+}
+
+.gold h2 {
+    text-align: center;
+}
 
 .form {
     width: 450px;
@@ -373,11 +386,6 @@ footer p {
 .join-form {
     border: 6px solid black;
     border-radius: 10px;
-}
-
-.join-form legend {
-    color: blue;
-    padding: 0 .8rem;
 }
 
 .join-form label {
@@ -406,9 +414,13 @@ footer p {
     appearance: none;
 }
 
+.join-form input[type="radio"] {
+    font-weight: bold;
+}
+
 .join-form input[type="submit"] {
     border: none;
-    background-color: lightcoral;
+    background-color: #32AE99;
     color: black;
     border-radius: 10px;
     padding: .8rem;
@@ -417,4 +429,6 @@ footer p {
     margin: -1rem 2% 2rem 2%;
     margin-top: 10px;
     box-shadow: 1px 1px 4px lightslategrey;
+    margin-left: 40px;
+    font-weight: bolder;
 }

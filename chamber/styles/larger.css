@@ -208,7 +208,7 @@
     .np {
         grid-column: 1/2;
         grid-row: 1;
-        margin-top: -600px;
+        margin-top: -800px;
         margin-left: 50px;
 
     }
@@ -217,13 +217,19 @@
         grid-column: 1/2;
         grid-row: 2;
         margin-left: 50px;
-        margin-top: -950px;
+        margin-top: -1300px;
     }
 
     .silver {
         grid-column: 1/2;
         margin-left: 50px;
-        margin-top: -400px;
+        margin-top: -700px;
+    }
+
+    .gold {
+        grid-column: 1/2;
+        margin-left: 50px;
+        margin-top: -175px;
     }
 
     .form {

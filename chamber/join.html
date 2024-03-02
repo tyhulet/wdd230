@@ -45,17 +45,18 @@
         </div>
 
         <div class="bronze">
-            <h2>Bronze Tier: 100 a month</h2>
+            <h2>Bronze Tier: $100 a month</h2>
             <ul>
                 <li>Enjoy all the benefits of the Non-Profit membership, plus:</li>
                 <li>Listing in our online business directory, increasing your online presence.</li>
                 <li>Exclusive invitations to educational seminars and workshops to enhance your business skills.</li>
                 <li>Attend monthly networking events and make valuable connections with fellow entrepreneurs and
                     professionals in the area.</li>
+                <li>A subscription to the chamber newsletter.</li>
             </ul>
         </div>
         <div class="silver">
-            <h2>Silver Tier: 200 a month</h2>
+            <h2>Silver Tier: $200 a month</h2>
             <ul>
                 <li>Enjoy all the advantages of the Bronze membership, plus:</li>
                 <li>Spotlight your business with enhanced visibility in our directory and on our website.</li>
@@ -63,6 +64,19 @@
                     brand's recognition.</li>
                 <li>Access member-exclusive business development workshops and seminars to refine your skills and stay
                     ahead of industry trends.</li>
+            </ul>
+        </div>
+
+        <div class="gold">
+            <h2>Gold Tier: $400 a month</h2>
+            <ul>
+                <li>Enjoy all the advantages of the silver membership, plus:</li>
+                <li>Receive a dedicated business profile feature in our Chamber's newsletter, highlighting your
+                    achievements and success stories.</li>
+                <li>Recognition at chamber events and ceremonies.
+                    Eligibility for business awards and accolades within the local business community.</li>
+                <li>Invitation to Chamber Committees</li>
+                <li>Exclusive offers and discounts from fellow Gold Tier members.</li>
             </ul>
         </div>
         <div class="form">
@@ -90,20 +104,19 @@
                     <label class="sbs"><input type="radio" name="audience" value="silver">Silver Membership (Cost
                         $200 monthly)</label>
                     <label class="sbs"><input type="radio" name="audience" value="gold">Gold Membership (Cost
-                        $300 monthly)</label>
-
-
-
+                        $400 monthly)</label>
+                    <label class="top">Business Description</label><textarea name="businessdescription"
+                        id="business-description" cols="40" rows="5"
+                        placeholder="Enter a brif description of your business"></textarea>
+                    <label id="hidden">
+                        <input type="hidden" id="submissionTime" name="submissionTime" />
+                    </label>
                 </fieldset>
+                <input type="submit" value="Submit New Member Info">
             </form>
         </div>
 
     </main>
-
-
-
-
-
 
     <footer>
         <h2>Payson Chamber of Commerce| City Office building 150 South Main Street Suite 3 | Contact us: 555-555-5555
@@ -116,7 +129,7 @@
     </footer>
     <script src="scripts/navbutton.js"></script>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/hidden.js"></script>
 </body>
 
 </html>
