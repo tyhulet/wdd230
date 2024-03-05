@@ -52,12 +52,6 @@ nav {
     height: auto;
 }
 
-.hero h6 {
-    color: lightgray;
-    font-size: xx-small;
-    margin-top: -10px;
-}
-
 .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -329,7 +323,7 @@ footer p {
     align-self: center;
 }
 
-.bronze h2 {
+h2 {
     text-align: center;
 }
 
@@ -344,9 +338,6 @@ footer p {
     align-self: center;
 }
 
-.silver h2 {
-    text-align: center;
-}
 
 .silver {
     width: 450px;
@@ -370,9 +361,6 @@ footer p {
     align-self: center;
 }
 
-.gold h2 {
-    text-align: center;
-}
 
 .form {
     width: 450px;
