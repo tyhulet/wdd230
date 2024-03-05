@@ -16,6 +16,10 @@
         max-width: 960px;
     }
 
+    .card1 {
+        margin-right: 300px;
+    }
+
     .hero img {
         width: 800px;
         height: auto;
@@ -43,6 +47,7 @@
 
     iframe {
         grid-column: span 2;
+        width: 600px;
     }
 
     #menu {
