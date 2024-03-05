@@ -45,9 +45,6 @@ nav {
 .hero {
     margin-top: 2px;
     margin-bottom: 15px;
-}
-
-.hero img {
     width: 100%;
     height: auto;
 }
@@ -140,15 +137,12 @@ footer {
     padding: 5px;
     width: 100%;
     text-align: center;
-}
-
-
-footer p {
     font-family: "Bebas Neue, sans-serif";
     color: black;
     text-align: center;
     margin-right: 25px;
 }
+
 
 #menu {
     font-size: 1.5rem;
@@ -308,10 +302,6 @@ footer p {
     margin-top: 5px;
 }
 
-.np h2 {
-    text-align: center;
-}
-
 .np {
     width: 450px;
     height: 200px;
@@ -440,9 +430,6 @@ h2 {
     margin-top: 25px;
     height: auto;
     width: auto;
-}
-
-.thankyou p {
     font-weight: bold;
     font-size: large;
     font-family: "Bebas Neue, sans-serif";
