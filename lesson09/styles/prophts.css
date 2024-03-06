@@ -1,0 +1,30 @@
+img {
+    width: 300px;
+    height: auto;
+}
+
+header,
+footer {
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: #00b3b3;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    margin: .25rem;
+    padding: .35rem;
+    background-color: #95B2A7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: black;
+}
