@@ -8,18 +8,14 @@
                     "title": "Holy Grail"
                 },
                 {
-                    "url": "https://codepen.io/weylin76/pen/rNRjvrm",
-                    "title": "JS Pen"
+                    "url": "lesson01/media-query.html",
+                    "title": "Media Query"
                 }
             ]
         },
         {
             "lesson": "02",
             "links": [
-                {
-                    "url": "lesson01/media-query.html",
-                    "title": "Media Query"
-                },
                 {
                     "url": "lesson02/design-principles.html",
                     "title": "Design principles"
@@ -34,10 +30,6 @@
                     "title": "CSS Combinators"
                 },
                 {
-                    "url": "https://codepen.io/weylin76/pen/VwRPQXZ",
-                    "title": "pseudo-element"
-                },
-                {
                     "url": "lesson03/chamber-site-plan.html",
                     "title": "Chamber Site Design"
                 }
@@ -48,7 +40,7 @@
             "links": [
                 {
                     "url": "chamber/index.html",
-                    "title": "Mount Crumpit Chamber of Commerce"
+                    "title": "Payson Chamber of Commerce"
                 }
             ]
         },
@@ -109,7 +101,7 @@
                 },
                 {
                     "url": "lesson09/prophets.html",
-                    "title": "Prophets"
+                    "title": "Prophets json"
                 }
             ]
         },
