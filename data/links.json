@@ -4,11 +4,11 @@
             "lesson": "01",
             "links": [
                 {
-                    "url": "lesson01/media-query.html",
+                    "url": "lesson1/media-query.html",
                     "title": "Holy Grail"
                 },
                 {
-                    "url": "lesson01/media-query.html",
+                    "url": "lesson1/media-query.html",
                     "title": "Media Query"
                 }
             ]
@@ -26,7 +26,7 @@
             "lesson": "03",
             "links": [
                 {
-                    "url": "lesson03/images/css-combinators.png",
+                    "url": "lesson03/images/combinators.png",
                     "title": "CSS Combinators"
                 },
                 {
@@ -57,7 +57,7 @@
             "lesson": "06",
             "links": [
                 {
-                    "url": "lesson03/images/landscape.webp",
+                    "url": "lesson06/images/landscape.webp",
                     "title": "WebP"
                 }
             ]
@@ -87,7 +87,7 @@
                     "title": "Form Example"
                 },
                 {
-                    "url": "../wdd230/form.html",
+                    "url": "lesson08/form.html",
                     "title": "Form Assignment"
                 }
             ]
@@ -109,12 +109,12 @@
             "lesson": "10",
             "links": [
                 {
-                    "url": "#",
-                    "title": "#"
+                    "url": "",
+                    "title": ""
                 },
                 {
-                    "url": "#",
-                    "title": "#"
+                    "url": "",
+                    "title": ""
                 }
             ]
         }
