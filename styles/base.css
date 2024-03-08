@@ -63,9 +63,7 @@ nav li a {
     color: white;
 }
 
-li a:link {
-    color: white;
-}
+
 
 main {
     margin: 20px auto;
@@ -192,4 +190,8 @@ iframe {
 
 .active::before {
     content: "📌";
+}
+
+a {
+    padding-left: 5px;
 }
