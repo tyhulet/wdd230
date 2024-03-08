@@ -22,8 +22,10 @@ const displayLinks = (lessons) => {
             anchorTag.href = `${week.url}`;
             anchorTag.textContent = `${week.title} `;
             list.appendChild(anchorTag);
+
         });
         lists.appendChild(list);
 
     });
 }
+

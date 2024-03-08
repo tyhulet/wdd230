@@ -5,11 +5,11 @@
             "links": [
                 {
                     "url": "lesson1/media-query.html",
-                    "title": "Holy Grail"
+                    "title": " Holy Grail "
                 },
                 {
                     "url": "lesson1/media-query.html",
-                    "title": "Media Query"
+                    "title": " Media Query "
                 }
             ]
         },
@@ -18,7 +18,7 @@
             "links": [
                 {
                     "url": "lesson02/design-principles.html",
-                    "title": "Design principles"
+                    "title": " Design principles "
                 }
             ]
         },
@@ -27,11 +27,11 @@
             "links": [
                 {
                     "url": "lesson03/images/combinators.png",
-                    "title": "CSS Combinators"
+                    "title": " CSS Combinators "
                 },
                 {
                     "url": "lesson03/chamber-site-plan.html",
-                    "title": "Chamber Site Design"
+                    "title": " Chamber Site Design "
                 }
             ]
         },
@@ -40,7 +40,7 @@
             "links": [
                 {
                     "url": "chamber/index.html",
-                    "title": "Payson Chamber of Commerce"
+                    "title": " Payson Chamber of Commerce "
                 }
             ]
         },
@@ -49,7 +49,7 @@
             "links": [
                 {
                     "url": "lesson05/bom.html",
-                    "title": "BOM"
+                    "title": " BOM "
                 }
             ]
         },
@@ -58,7 +58,7 @@
             "links": [
                 {
                     "url": "lesson06/images/landscape.webp",
-                    "title": "WebP"
+                    "title": " WebP "
                 }
             ]
         },
@@ -67,11 +67,11 @@
             "links": [
                 {
                     "url": "lesson03/lazyload.html",
-                    "title": "Lazy Load"
+                    "title": " Lazy Load "
                 },
                 {
                     "url": "lesson07/bom.html",
-                    "title": "BOM Local Storage"
+                    "title": " BOM Local Storage "
                 }
             ]
         },
@@ -80,15 +80,15 @@
             "links": [
                 {
                     "url": "lesson08/tablebuild.html",
-                    "title": "Table"
+                    "title": " Table "
                 },
                 {
                     "url": "lesson08/form-start/index.html",
-                    "title": "Form Example"
+                    "title": " Form Example "
                 },
                 {
-                    "url": "wdd230/form.html",
-                    "title": "Form Assignment"
+                    "url": "lesson08/form.html",
+                    "title": " Form Assignment "
                 }
             ]
         },
@@ -97,11 +97,11 @@
             "links": [
                 {
                     "url": "lesson09/new-ward-members.json",
-                    "title": "Json"
+                    "title": " Json "
                 },
                 {
                     "url": "lesson09/prophets.html",
-                    "title": "Prophets json"
+                    "title": " Prophets json "
                 }
             ]
         },
