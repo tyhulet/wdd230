@@ -38,8 +38,9 @@ const displayMembers = (members) => {
     });
 }*/
 
+
 async function getProphetData() {
-    const response = await fetch("https://tyhulet.github.io/wdd230/chamber/data/members.json");
+    const response = await fetch('https://tyhulet.github.io/wdd230/chamber/data/members.json');
     const data = await response.json();
     displayProphets(data.companies);
 }
@@ -53,20 +54,17 @@ const displayProphets = (companies) => {
         let card = document.createElement('section');
         let name = document.createElement('h2');
         let img = document.createElement('img');
-        let phone = document.createElement('h5');
+        let phonenumber = document.createElement('h5');
         let address = document.createElement('h4');
         let url = document.createElement('a');
 
 
         name.textContent = ` ${company.name}`;
-        phone.textContent = `${company.phone}`;
+        phonenumber.textContent = `${company.phonenumber}`;
         address.textContent = `${company.address}`
 
-        url.textContent = `${company.url}`;
-        url.setAttribute('href', `${company.url}`);
-        url.setAttribute('target', `_blank`);
 
-        img.setAttribute('src', company.image);
+        img.setAttribute('src', company.img);
         img.setAttribute('alt', 'logo of ${company.name}');
         img.setAttribute('loading', 'lazy');
 
@@ -74,7 +72,7 @@ const displayProphets = (companies) => {
         card.appendChild(img);
         card.appendChild(name);
         card.appendChild(address);
-        card.appendChild(phone);
+        card.appendChild(phonenumber);
         cards.appendChild(card);
 
     });
