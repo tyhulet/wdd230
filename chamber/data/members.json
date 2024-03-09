@@ -5,7 +5,24 @@
             "address": "60 W Main street.",
             "phonenumber": "801-465-2585",
             "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/me.jpg"
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/me.jpg",
+            "memberlevel": "Non-Profit"
+        },
+        {
+            "name": "Hotel",
+            "address": "60 W Main street.",
+            "phonenumber": "801-465-2585",
+            "url": "https://www.franklincovey.com/",
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp",
+            "memberlevel": "Bronze"
+        },
+        {
+            "name": "mcdonalds",
+            "address": "60 W Main street.",
+            "phonenumber": "385-535-1132",
+            "url": "https://www.franklincovey.com/",
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/hero-img.jpg",
+            "memberlevel": "Silver"
         },
         {
             "name": "Hotel",
@@ -16,46 +33,36 @@
             "memberlevel": "Gold"
         },
         {
-            "name": "mcdonalds",
+            "name": "Hotel",
             "address": "60 W Main street.",
-            "phonenumber": "385-535-1132",
+            "phonenumber": "801-465-2585",
             "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/hero-img.jpg"
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp",
+            "memberlevel": "Silver"
         },
         {
             "name": "Hotel",
             "address": "60 W Main street.",
             "phonenumber": "801-465-2585",
             "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp"
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp",
+            "memberlevel": "Silver"
         },
         {
             "name": "Hotel",
             "address": "60 W Main street.",
             "phonenumber": "801-465-2585",
             "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp"
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp",
+            "memberlevel": "Non-Profit"
         },
         {
             "name": "Hotel",
             "address": "60 W Main street.",
             "phonenumber": "801-465-2585",
             "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp"
-        },
-        {
-            "name": "Hotel",
-            "address": "60 W Main street.",
-            "phonenumber": "801-465-2585",
-            "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp"
-        },
-        {
-            "name": "Hotel",
-            "address": "60 W Main street.",
-            "phonenumber": "801-465-2585",
-            "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp"
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp",
+            "memberlevel": "Bronze"
         }
     ]
 }

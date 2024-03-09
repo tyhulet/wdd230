@@ -219,4 +219,14 @@
         margin-top: 10px;
 
     }
+
+    /*----------- directory page--------------*/
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        align-items: center;
+        border: 1px solid black;
+    }
 }
