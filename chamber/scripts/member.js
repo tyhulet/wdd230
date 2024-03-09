@@ -38,9 +38,6 @@ const displayMembers = (members) => {
     });
 }*/
 
-
-const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
-
 const cards = document.querySelector('#cards');
 
 async function getProphetData() {
@@ -74,6 +71,8 @@ function displayProphets(companies) {
         img.setAttribute('src', company.img);
         img.setAttribute('alt', 'logo of ${company.name}');
         img.setAttribute('loading', 'lazy');
+        img.setAttribute('width', '150');
+        img.setAttribute('height', '100');
 
 
         card.appendChild(img);
