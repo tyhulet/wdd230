@@ -145,4 +145,16 @@
         box-shadow: 0 0 35px #32AE99;
     }
 
+    /*----------- directory page--------------*/
+    .list section {
+        grid-column: 2;
+        width: 750px;
+    }
+
+    .menu {
+        text-align: center;
+        background-color: #95B2A7;
+        height: 75px;
+        width: 800px;
+    }
 }

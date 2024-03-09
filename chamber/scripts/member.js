@@ -1,14 +1,14 @@
 const cards = document.querySelector('#cards');
 
-async function getProphetData() {
+async function getMemberData() {
     const response = await fetch("https://tyhulet.github.io/wdd230/chamber/data/members.json");
     const data = await response.json();
-    displayProphets(data.companies);
+    displayMembers(data.companies);
 }
 
-getProphetData();
+getMemberData();
 
-function displayProphets(companies) {
+function displayMembers(companies) {
     companies.forEach((company) => {
 
 

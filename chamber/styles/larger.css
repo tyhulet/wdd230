@@ -232,8 +232,7 @@
 
     .list section {
         grid-column: 2;
-        width: 800px;
-        margin-left: 400px;
+        width: auto;
     }
 
     .menu {
