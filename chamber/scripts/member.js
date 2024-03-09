@@ -1,7 +1,7 @@
-const url = "https://tyhulet.github.io/wdd230/chamber/data/members.json";
+/*const url = "https://tyhulet.github.io/wdd230/chamber/data/members.json";
 const cards = document.querySelector("#cards");
 
-/*async function getMembersData() {
+async function getMembersData() {
     const response = await fetch("https://tyhulet.github.io/wdd230/chamber/data/members.json");
     const data = await response.json();
     displayMembers(data.members);
@@ -39,15 +39,19 @@ const displayMembers = (members) => {
 }*/
 
 
+const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
+
+const cards = document.querySelector('#cards');
+
 async function getProphetData() {
-    const response = await fetch('https://tyhulet.github.io/wdd230/chamber/data/members.json');
+    const response = await fetch("https://tyhulet.github.io/wdd230/chamber/data/members.json");
     const data = await response.json();
     displayProphets(data.companies);
 }
 
 getProphetData();
 
-const displayProphets = (companies) => {
+function displayProphets(companies) {
     companies.forEach((company) => {
 
 
@@ -61,8 +65,11 @@ const displayProphets = (companies) => {
 
         name.textContent = ` ${company.name}`;
         phonenumber.textContent = `${company.phonenumber}`;
-        address.textContent = `${company.address}`
+        address.textContent = `${company.address}`;
 
+        url.textContent = `${company.url}`;
+        url.setAttribute('href', `${company.url}`);
+        url.setAttribute('target', `_blank`);
 
         img.setAttribute('src', company.img);
         img.setAttribute('alt', 'logo of ${company.name}');
@@ -73,10 +80,10 @@ const displayProphets = (companies) => {
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phonenumber);
+        card.appendChild(url);
         cards.appendChild(card);
 
     });
 }
-
 
 
