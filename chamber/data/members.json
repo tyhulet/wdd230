@@ -6,7 +6,7 @@
             "phonenumber": "801-636-7443",
             "url": "https://feedthekidsfoundation.org/",
             "img": "https://tyhulet.github.io/wdd230/chamber/images/image1.webp",
-            "memberlevel": "Non-Profit"
+            "memberlevel": "MemberShip level: Non-Profit"
         },
         {
             "name": "America First Credit Union Payson Branch",
@@ -14,7 +14,7 @@
             "phonenumber": "801-223-3977",
             "url": "https://www.americafirst.com/about/branches/payson-hwy-198-branch.html",
             "img": "https://tyhulet.github.io/wdd230/chamber/images/image4.webp",
-            "memberlevel": "Silver"
+            "memberlevel": "MemberShip level: Silver"
         },
         {
             "name": "Murdock FORD SALES",
@@ -22,7 +22,7 @@
             "phonenumber": "801-754-3281",
             "url": "https://www.murdockford.com/",
             "img": "https://tyhulet.github.io/wdd230/chamber/images/image8.webp",
-            "memberlevel": "Silver"
+            "memberlevel": "MemberShip level: Silver"
         },
         {
             "name": "AutoWorks Car Care",
@@ -30,7 +30,7 @@
             "phonenumber": "801-465-9096",
             "url": "https://autoworkscarcare.com/",
             "img": "https://tyhulet.github.io/wdd230/chamber/images/image2.webp",
-            "memberlevel": "Gold"
+            "memberlevel": "MemberShip level: Gold"
         },
         {
             "name": "Sherwin-Williams (Payson)",
@@ -38,7 +38,7 @@
             "phonenumber": "385-895-3090",
             "url": "https://www.sherwin-williams.com/",
             "img": "https://tyhulet.github.io/wdd230/chamber/images/image7.webp",
-            "memberlevel": "Silver"
+            "memberlevel": "MemberShip level: Silver"
         },
         {
             "name": "The Payson Chronicle",
@@ -46,7 +46,7 @@
             "phonenumber": "801-465-9221",
             "url": "https://paysonchronicle.blogspot.com/",
             "img": "https://tyhulet.github.io/wdd230/chamber/images/image6.webp",
-            "memberlevel": "Bronze"
+            "memberlevel": "MemberShip level: Bronze"
         },
         {
             "name": "Tabitha's Way Local Food Pantry",
@@ -54,7 +54,7 @@
             "phonenumber": "801-708-8573",
             "url": "hhttps://tabithasway.org/",
             "img": "https://tyhulet.github.io/wdd230/chamber/images/image5.webp",
-            "memberlevel": "Non-Profit"
+            "memberlevel": "MemberShip level: Non-Profit"
         },
         {
             "name": "Gunnerson Dental",
@@ -62,7 +62,7 @@
             "phonenumber": "801-465-3233",
             "url": "https://www.excellencebychoice.net/",
             "img": "https://tyhulet.github.io/wdd230/chamber/images/image3.webp",
-            "memberlevel": "Gold"
+            "memberlevel": "MemberShip level: Gold"
         }
     ]
 }
