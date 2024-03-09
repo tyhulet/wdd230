@@ -4,10 +4,7 @@
     display: grid;
     grid-template-columns: 1fr;
     align-items: start;
-}
-
-.content-container {
-    padding: 0 2%;
+    margin-top: 25px;
 }
 
 .directory-buttons {
@@ -24,13 +21,13 @@
 }
 
 .directory-buttons button:focus {
-    background-color: rgba(221, 161, 94, 0.7);
+    background-color: #95B2A7;
     font-weight: bold;
     color: #000;
     border: 2px #bc6c25 solid;
 }
 
-#panel {
+#grid {
     background-size: 50px 50px;
     height: 52px;
     width: 52px;
@@ -42,42 +39,42 @@
     width: 52px;
 }
 
-.directory-grid {
+#cards {
     color: black;
     margin-bottom: 25px;
 }
 
-.directory-grid section h2 {
+#cards section h2 {
     text-align: center;
 }
 
-.directory-grid section {
+#cards section {
     display: grid;
     align-items: center;
     grid-template-columns: 2fr 1fr;
     padding: 20px;
     margin: 12px;
-    background-color: rgba(221, 161, 94, 0.7);
-    border: 2px #bc6c25 solid;
+    background-color: #95B2A7;
+    border: 2px black solid;
     border-radius: 3px;
 }
 
-.directory-grid img {
+/*#cards img {
     display: none;
-}
+}*/
 
-.directory-grid section p {
+#cards section p {
     text-align: center;
     font-size: 16px;
 }
 
-.directory-grid section a {
+#cards section a {
     text-align: center;
     font-size: 16px;
     font-weight: bold;
 }
 
-.directory-grid section a:hover {
+#cards section a:hover {
     text-align: center;
     font-size: 16px;
     font-weight: bold;
@@ -85,21 +82,21 @@
     text-shadow: 1px 1px #000;
 }
 
-.panelview {
+.grid {
     display: grid;
     grid-template-columns: 1fr;
 }
 
-.panelview section {
+.grid section {
     margin: 10px;
     padding: 15px;
     text-align: center;
     display: block;
-    border: 2px #bc6c25 solid;
+    border: 2px #95B2A7;
     border-radius: 3px;
 }
 
-.panelview img {
+.grid img {
     padding: 0px;
     display: block;
     margin: 15px auto;
