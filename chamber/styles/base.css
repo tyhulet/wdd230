@@ -493,9 +493,10 @@ section {
     font-size: 18px;
 }
 
-.list a {
-    font-size: larger;
+.list a,
+a:link {
     margin-right: 6px;
+    color: #000000;
 }
 
 .list h2 {
