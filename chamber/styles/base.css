@@ -450,6 +450,9 @@ h2 {
 .menu button {
     height: 50px;
     width: 50px;
+    background-color: black;
+    color: #fff;
+    margin-top: 10px;
 }
 
 #cards {
