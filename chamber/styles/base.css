@@ -443,6 +443,15 @@ h2 {
 
 .menu {
     text-align: center;
+    background-color: #95B2A7;
+    height: 75px;
+    top: 500px;
+}
+
+.menu button {
+    height: 50px;
+    width: 50px;
+    gap: 50px;
 }
 
 #cards {

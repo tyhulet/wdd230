@@ -12,7 +12,8 @@
             "address": "60 W Main street.",
             "phonenumber": "801-465-2585",
             "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp"
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp",
+            "memberlevel": "Gold"
         },
         {
             "name": "mcdonalds",

@@ -18,11 +18,13 @@ function displayProphets(companies) {
         let phonenumber = document.createElement('p');
         let address = document.createElement('p');
         let url = document.createElement('a');
+        let memberlevel = document.createElement('p');
 
 
         name.textContent = ` ${company.name}`;
         phonenumber.textContent = `${company.phonenumber}`;
         address.textContent = `${company.address}`;
+        memberlevel.textContent = `${company.memberlevel}`;
 
         url.textContent = `${company.url}`;
         url.setAttribute('href', `${company.url}`);
@@ -39,6 +41,7 @@ function displayProphets(companies) {
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phonenumber);
+        card.appendChild(memberlevel);
         card.appendChild(url);
         cards.appendChild(card);
 
