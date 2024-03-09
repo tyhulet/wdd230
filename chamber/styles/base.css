@@ -485,7 +485,7 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 425px;
+    width: 450px;
 }
 
 .list p {
