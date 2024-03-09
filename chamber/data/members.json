@@ -1,68 +1,68 @@
 {
     "companies": [
         {
-            "name": "Petal Pantry",
-            "address": "60 W Main street.",
-            "phonenumber": "801-465-2585",
-            "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/me.jpg",
+            "name": "Feed The Kids Foundation LLC",
+            "address": "725 E 180 N Salem UT 84653",
+            "phonenumber": "801-636-7443",
+            "url": "https://feedthekidsfoundation.org/",
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/image1.webp",
             "memberlevel": "Non-Profit"
         },
         {
-            "name": "Hotel",
-            "address": "60 W Main street.",
-            "phonenumber": "801-465-2585",
-            "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp",
-            "memberlevel": "Bronze"
-        },
-        {
-            "name": "mcdonalds",
-            "address": "60 W Main street.",
-            "phonenumber": "385-535-1132",
-            "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/hero-img.jpg",
+            "name": "America First Credit Union Payson Branch",
+            "address": "763 W. Hwy 198 Payson UT 84651",
+            "phonenumber": "801-223-3977",
+            "url": "https://www.americafirst.com/about/branches/payson-hwy-198-branch.html",
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/image4.webp",
             "memberlevel": "Silver"
         },
         {
-            "name": "Hotel",
-            "address": "60 W Main street.",
-            "phonenumber": "801-465-2585",
-            "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp",
+            "name": "Murdock FORD SALES",
+            "address": "118 WEST MAIN SANTAQUIN UT 84655",
+            "phonenumber": "801-754-3281",
+            "url": "https://www.murdockford.com/",
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/image8.webp",
+            "memberlevel": "Silver"
+        },
+        {
+            "name": "AutoWorks Car Care",
+            "address": "484 E 100 N Payson UT 84651",
+            "phonenumber": "801-465-9096",
+            "url": "https://autoworkscarcare.com/",
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/image2.webp",
             "memberlevel": "Gold"
         },
         {
-            "name": "Hotel",
-            "address": "60 W Main street.",
-            "phonenumber": "801-465-2585",
-            "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp",
+            "name": "Sherwin-Williams (Payson)",
+            "address": "1138 W 800 S Payson UT 84651",
+            "phonenumber": "385-895-3090",
+            "url": "https://www.sherwin-williams.com/",
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/image7.webp",
             "memberlevel": "Silver"
         },
         {
-            "name": "Hotel",
-            "address": "60 W Main street.",
-            "phonenumber": "801-465-2585",
-            "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp",
-            "memberlevel": "Silver"
+            "name": "The Payson Chronicle",
+            "address": "145 E. Utah Ave, Suite 5 Payson UT 84651",
+            "phonenumber": "801-465-9221",
+            "url": "https://paysonchronicle.blogspot.com/",
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/image6.webp",
+            "memberlevel": "Bronze"
         },
         {
-            "name": "Hotel",
-            "address": "60 W Main street.",
-            "phonenumber": "801-465-2585",
-            "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp",
+            "name": "Tabitha's Way Local Food Pantry",
+            "address": "45 East 100 North Spanish Fork UT 84660",
+            "phonenumber": "801-708-8573",
+            "url": "hhttps://tabithasway.org/",
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/image5.webp",
             "memberlevel": "Non-Profit"
         },
         {
-            "name": "Hotel",
-            "address": "60 W Main street.",
-            "phonenumber": "801-465-2585",
-            "url": "https://www.franklincovey.com/",
-            "img": "https://tyhulet.github.io/wdd230/chamber/images/myself1.webp",
-            "memberlevel": "Bronze"
+            "name": "Gunnerson Dental",
+            "address": "33 West 300 South Payson UT 84651",
+            "phonenumber": "801-465-3233",
+            "url": "https://www.excellencebychoice.net/",
+            "img": "https://tyhulet.github.io/wdd230/chamber/images/image3.webp",
+            "memberlevel": "Gold"
         }
     ]
 }
