@@ -445,6 +445,7 @@ h2 {
     text-align: center;
     background-color: #95B2A7;
     height: 75px;
+    width: 465px;
 }
 
 .menu button {
@@ -458,6 +459,7 @@ h2 {
 #cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin-left: 25px;
 }
 
 section {
@@ -478,6 +480,8 @@ section {
     background-color: #bed;
 }
 
-.list {
-    grid-template-columns: 1fr;
+.list section {
+    grid-column: 2;
+    width: 325px;
+    margin-left: 50px;
 }
