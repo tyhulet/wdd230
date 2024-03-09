@@ -1,8 +1,8 @@
 const url = "https://tyhulet.github.io/wdd230/chamber/data/members.json";
-const cards = document.querySelector("#card");
+const cards = document.querySelector("#cards");
 
-async function getMembersData() {
-    const response = await fetch(url);
+/*async function getMembersData() {
+    const response = await fetch("https://tyhulet.github.io/wdd230/chamber/data/members.json");
     const data = await response.json();
     displayMembers(data.members);
 }
@@ -17,8 +17,7 @@ const displayMembers = (members) => {
         let img = document.createElement('img');
         let address = document.createElement('h3');
         let phone = document.createElement('h4');
-        let url = document.createElement('a');
-        let level = document.createElement('h5');
+
 
         name.textContent = `${member.name}`;
         phone.textContent = `${member.phone}`;
@@ -37,8 +36,49 @@ const displayMembers = (members) => {
         cards.appendChild(card)
 
     });
+}*/
+
+async function getProphetData() {
+    const response = await fetch("https://tyhulet.github.io/wdd230/chamber/data/members.json");
+    const data = await response.json();
+    displayProphets(data.companies);
 }
 
+getProphetData();
+
+const displayProphets = (companies) => {
+    companies.forEach((company) => {
+
+
+        let card = document.createElement('section');
+        let name = document.createElement('h2');
+        let img = document.createElement('img');
+        let phone = document.createElement('h5');
+        let address = document.createElement('h4');
+        let url = document.createElement('a');
+
+
+        name.textContent = ` ${company.name}`;
+        phone.textContent = `${company.phone}`;
+        address.textContent = `${company.address}`
+
+        url.textContent = `${company.url}`;
+        url.setAttribute('href', `${company.url}`);
+        url.setAttribute('target', `_blank`);
+
+        img.setAttribute('src', company.image);
+        img.setAttribute('alt', 'logo of ${company.name}');
+        img.setAttribute('loading', 'lazy');
+
+
+        card.appendChild(img);
+        card.appendChild(name);
+        card.appendChild(address);
+        card.appendChild(phone);
+        cards.appendChild(card);
+
+    });
+}
 
 
 

@@ -1,5 +1,5 @@
 {
-    "members": [
+    "companies": [
         {
             "name": "ABC Company",
             "address": "123 Main Street",
@@ -8,60 +8,6 @@
             "image": "images/myself1.webp",
             "membership": "gold",
             "slogan": "Delivering excellence since 1990"
-        },
-        {
-            "name": "XYZ Corporation",
-            "address": "456 Elm Avenue",
-            "phone": "360-555-5678",
-            "website": "https://www.xyzcorp.com",
-            "image": "images/myself1.webp",
-            "membership": "silver",
-            "slogan": "Innovating for a better future"
-        },
-        {
-            "name": "PQR Industries",
-            "address": "789 Oak Street",
-            "phone": "360-555-9012",
-            "website": "https://www.pqri.com",
-            "image": "images/myself1.webp",
-            "membership": "bronze",
-            "slogan": "Engineering solutions that matter"
-        },
-        {
-            "name": "LMN Enterprises",
-            "address": "321 Pine Lane",
-            "phone": "360-555-3456",
-            "website": "https://www.lmnenterprises.com",
-            "image": "images/myself1.webp",
-            "membership": "non-profit",
-            "slogan": "Your partner for success"
-        },
-        {
-            "name": "DEF Corporation",
-            "address": "654 Cedar Road",
-            "phone": "360-555-7890",
-            "website": "https://www.defcorp.com",
-            "image": "images/myself1.webp",
-            "membership": "gold",
-            "slogan": "Empowering businesses worldwide"
-        },
-        {
-            "name": "GHI Solutions",
-            "address": "987 Maple Street",
-            "phone": "360-555-2345",
-            "website": "https://www.ghisolutions.com",
-            "image": "images/myself1.webp",
-            "membership": "silver",
-            "slogan": "Driving innovation for a connected world"
-        },
-        {
-            "name": "JKL Industries",
-            "address": "456 Oak Lane",
-            "phone": "360-555-6789",
-            "website": "https://www.jklindustries.com",
-            "image": "images/myself1.webp",
-            "membership": "bronze",
-            "slogan": "Quality products for every need"
         }
     ]
 }
