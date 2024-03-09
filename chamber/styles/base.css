@@ -436,3 +436,25 @@ h2 {
 }
 
 /*----------- Directory Page--------------*/
+
+.directory {
+    margin-top: 15px;
+}
+
+.menu {
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    margin: .25rem;
+    padding: .35rem;
+    background-color: #95B2A7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

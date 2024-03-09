@@ -15,8 +15,8 @@ function displayProphets(companies) {
         let card = document.createElement('section');
         let name = document.createElement('h2');
         let img = document.createElement('img');
-        let phonenumber = document.createElement('h5');
-        let address = document.createElement('h4');
+        let phonenumber = document.createElement('p');
+        let address = document.createElement('p');
         let url = document.createElement('a');
 
 
