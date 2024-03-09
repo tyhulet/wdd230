@@ -71,8 +71,8 @@ function displayProphets(companies) {
         img.setAttribute('src', company.img);
         img.setAttribute('alt', 'logo of ${company.name}');
         img.setAttribute('loading', 'lazy');
-        img.setAttribute('width', '150');
-        img.setAttribute('height', '100');
+        img.setAttribute('width', '200');
+        img.setAttribute('height', '150');
 
 
         card.appendChild(img);
