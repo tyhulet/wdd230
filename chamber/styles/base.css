@@ -461,8 +461,8 @@ h2 {
 }
 
 section {
-    margin: 15px;
-    padding: 10px;
+    margin: 5px;
+    padding: 15px;
     background-color: #95B2A7;
     display: flex;
     flex-direction: column;
