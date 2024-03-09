@@ -468,3 +468,16 @@ section {
     flex-direction: column;
     align-items: center;
 }
+
+.list section img {
+    display: none;
+    /* smaller viewports only */
+}
+
+.list section:nth-child(even) {
+    background-color: #bed;
+}
+
+.list {
+    grid-template-columns: 1fr;
+}
