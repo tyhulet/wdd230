@@ -98,6 +98,11 @@ h2 {
     border-width: 1px;
 }
 
+.card1 img,
+figcaption {
+    margin-left: 100px;
+}
+
 .card1 h3 {
     text-align: center;
     background-color: #00b3b3;
