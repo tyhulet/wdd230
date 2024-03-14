@@ -31,9 +31,10 @@ header h1 {
 }
 
 .hero img {
-    width: 100%;
+    width: 95%;
     margin-top: 25px;
     object-fit: cover;
+    margin-left: 10px;
 }
 
 .herolabel {
@@ -78,6 +79,7 @@ main {
 h2 {
     text-decoration: underline;
     padding-top: 120px;
+    text-align: center;
 }
 
 .card {
@@ -100,7 +102,7 @@ h2 {
 
 .card1 img,
 figcaption {
-    margin-left: 100px;
+    margin-left: 25px;
 }
 
 .card1 h3 {

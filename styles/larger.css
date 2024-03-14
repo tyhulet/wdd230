@@ -50,6 +50,11 @@
         width: 600px;
     }
 
+    .card1 img,
+    figcaption {
+        margin-left: 75px;
+    }
+
     #menu {
         display: none;
     }
