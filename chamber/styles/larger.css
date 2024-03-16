@@ -44,7 +44,6 @@
     .forcast {
         display: flex;
         flex-direction: row;
-        margin-left: px;
     }
 
     .spotlight {
