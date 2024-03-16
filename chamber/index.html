@@ -44,11 +44,22 @@
     </div>
     <main class="grid">
         <section class="weather">
-            <h2>Weather</h2>
-            <p>Monday: Rain | 45/30</p>
-            <p>Temperature: <span id="temp">25</span> °F</p>
-            <p>WindSpeed: <span id="speed">30</span> Mph</p>
-            <p>WindChill: <span id="windchill"></span></p>
+            <h3>Weather Info:</h3>
+            <div id="current">
+                <p>Current Temp: <span id="temp"></span></p>
+                <figure> <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <h3>3-Day ForeCast</h3>
+            <div>
+                <h4><span id="forecast-day-1"></span> </h4>
+                <h4><span id="forecast-temp-1"></span> </h4>
+                <figure>
+                    <img id="weather-icon1" class="w-icon" alt="weather icon">
+                    <figcaption id="fig2"></figcaption>
+                </figure>
+            </div>
         </section>
 
         <section class="event">
@@ -97,7 +108,7 @@
     </footer>
     <script src="scripts/navbutton.js"></script>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 
 </html>
