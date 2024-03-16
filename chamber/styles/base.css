@@ -58,20 +58,25 @@ nav {
 .weather {
     margin: auto;
     width: 550px;
-    height: 200px;
+    height: 450px;
     background-color: #95B2A7;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 75px;
     border: 3px solid #000000;
 }
 
-.weather h3 {
+.weather h2 {
     margin-top: -10px;
 }
 
 #current {
     margin-top: -25px;
+    margin-right: 400px;
+}
+
+#current p {
+    font-size: larger;
 }
 
 .event {
