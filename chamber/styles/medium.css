@@ -20,17 +20,27 @@
         grid-template-rows: 1fr;
     }
 
+    .event {
+        margin-right: 50px;
+    }
+
+    .spotlight {
+        width: 300px;
+    }
+
     .weather {
         grid-column: span 2;
     }
 
     .event {
         grid-column: span 2;
+        margin-left: 150px;
     }
 
-    .banner {
+    .spotlight {
         grid-column: 1/3;
         grid-row: 3;
+
     }
 
     .business {
