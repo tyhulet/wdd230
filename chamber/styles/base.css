@@ -13,6 +13,12 @@ main {
     height: auto;
 }
 
+#banner {
+    display: none;
+    background-color: #000000;
+    color: #fff;
+}
+
 header {
     margin: auto;
     display: flex;
@@ -45,6 +51,9 @@ nav {
 .hero {
     margin-top: 2px;
     margin-bottom: 15px;
+}
+
+.hero img {
     width: 100%;
     height: auto;
 }

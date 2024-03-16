@@ -24,6 +24,10 @@
     <header>
         <h1>Payson Chamber of Commerce</h1>
         <div><button id="mode">DarkMode 🌕</button></div>
+        <div id="banner">
+            <span>Please join us for the Payson Chamber meet and greet Wendsday at 7:00 PM</span>
+            <button class="close-button" onclick="closeBanner()">❌</button>
+        </div>
     </header>
     <nav>
         <button id="menu"></button>
@@ -37,9 +41,9 @@
     <div class="hero">
         <button class="join">Join</button>
         <picture>
-            <source srcset="images/hero-small.webp" media="(max-width: 475px)">
-            <source srcset="images/hero-medium.webp" media="(max-width: 715px)">
-            <img src="images/hero-large.webp" alt="meeting" width="1000" height="500">
+            <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+            <source srcset="images/hero-medium.webp" media="(min-width: 750px)">
+            <img src="images/hero-large.webp" alt="main-street" width="900" height="350">
         </picture>
     </div>
     <main class="grid">
@@ -124,6 +128,7 @@
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 
 </html>
