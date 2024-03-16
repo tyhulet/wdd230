@@ -35,7 +35,7 @@
     .weather {
         grid-column: 1/2;
         margin-left: 40px;
-        width: 600px;
+        width: 500px;
         height: 450px;
         margin-top: 10px;
         margin-bottom: 15px;
@@ -44,10 +44,7 @@
     .forcast {
         display: flex;
         flex-direction: row;
-    }
-
-    .forecast h3 {
-        padding-right: 15px;
+        margin-left: px;
     }
 
     .banner {

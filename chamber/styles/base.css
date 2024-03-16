@@ -53,12 +53,13 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    font-size: large;
 }
 
 .weather {
     margin: auto;
-    width: 550px;
-    height: 450px;
+    width: 300px;
+    height: 780px;
     background-color: #95B2A7;
     text-align: center;
     margin-top: 10px;
@@ -72,12 +73,12 @@ nav {
 
 #current {
     margin-top: -25px;
-    margin-right: 400px;
 }
 
 #current p {
     font-size: larger;
 }
+
 
 .event {
     margin: auto;
@@ -87,6 +88,7 @@ nav {
     width: 450px;
     height: 400px;
     border: 3px solid #000000;
+    margin-left: 10px;
 }
 
 .join {

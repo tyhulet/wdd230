@@ -75,7 +75,7 @@ function displayForecast(data) {
     Icon2.setAttribute("alt", "weather icon");
     Desc2.textContent = `${desc2}`;
 
-    Temp3.innerHTML = `${data.list[22].main.temp.toFixed(0)}&deg;F`;
+    Temp3.innerHTML = `${data.list[22].main.temp.toFixed(1)}&deg;F`;
     const iconsrc2 = `https://openweathermap.org/img/w/${data.list[22].weather[0].icon}.png`;
     let desc3 = data.list[22].weather[0].description;
     Icon3.setAttribute("src", iconsrc2);

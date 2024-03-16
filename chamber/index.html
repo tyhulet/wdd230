@@ -39,7 +39,7 @@
         <picture>
             <source srcset="images/hero-small.webp" media="(max-width: 475px)">
             <source srcset="images/hero-medium.webp" media="(max-width: 715px)">
-            <img src="images/hero-large.webp" alt="meeting" width="1500" height="750">
+            <img src="images/hero-large.webp" alt="meeting" width="1000" height="500">
         </picture>
     </div>
     <main class="grid">
@@ -47,23 +47,27 @@
             <h2>Weather Info:</h2>
             <div id="current">
                 <p>Current Temp: <span id="temp"></span></p>
-                <figure> <img id="weather-icon" src="" alt="">
+                <figure> <img id="weather-icon" src="https://placehold.co/50" alt="weather-icon">
                     <figcaption></figcaption>
                 </figure>
             </div>
+            <h3>3-Day Forecast</h3>
             <div class="forcast">
-                <h3>3-Day ForeCast</h3>
-                <h4 id="temp-1"></h4>
-                <figure> <img id="icon1" alt="weather icon">
+                <figure>
+                    <p>Day 1</p>
+                    <h4 id="temp-1"></h4>
+                    <img id="icon1" src="https://placehold.co/50" alt="weather icon">
                     <figcaption id="fig1"></figcaption>
                 </figure>
-                <h4 id="temp-2"></h4>
                 <figure>
-                    <img id="icon2" alt="weather icon">
+                    <p>Day 2</p>
+                    <h4 id="temp-2"></h4>
+                    <img id="icon2" src="https://placehold.co/50" alt="weather icon">
                     <figcaption id="fig2"></figcaption>
                 </figure>
-                <h4 id="temp-3"></h4>
                 <figure>
+                    <p>Day 3</p>
+                    <h4 id="temp-3"></h4>
                     <img id="icon3" src="https://placehold.co/50" alt="weather icon">
                     <figcaption id="fig3"></figcaption>
                 </figure>
