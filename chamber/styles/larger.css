@@ -206,19 +206,19 @@
         grid-column: 1/2;
         grid-row: 2;
         margin-left: 50px;
-        margin-top: -1300px;
+        margin-top: -1400px;
     }
 
     .silver {
         grid-column: 1/2;
         margin-left: 50px;
-        margin-top: -700px;
+        margin-top: -850px;
     }
 
     .gold {
         grid-column: 1/2;
         margin-left: 50px;
-        margin-top: -175px;
+        margin-top: -310px;
     }
 
     .form {
