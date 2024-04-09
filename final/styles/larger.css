@@ -1,0 +1,39 @@
+@media screen and (min-width: 850px) {
+    header {
+        margin: auto;
+        width: auto;
+    }
+
+    p {
+        font-family: "Bebas Neue, sans-serif";
+        font-size: 16px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav {
+        height: 50px;
+        flex-direction: row;
+        margin-top: -17px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+        width: auto;
+    }
+
+    .navigation li a {
+        display: block;
+        flex: 1 1 100%;
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots Moter Rentals</title>
+    <meta name="author" content="Tyler Hulet">
+    <meta name="description" content="Scoots rental contact page">
+    <meta property="og:title" content="Scoots Moter Scooter Rentals">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://aws-tiqets-cdn.imgix.net/images/content/9176c9f9eda94768ab92335fe469bb87.jpg?auto=format&fit=crop&ixlib=python-3.2.1&q=70&s=3ad42de9126220182326360b87efb272">
+    <meta property="og:url" content="https://tyhulet.github.io/wdd230/final">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Payson Chamber of Commerce</h1>
+        <div><button id="mode">DarkMode 🌕</button></div>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="chamber/">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="contact">
+        <div class="Info">
+            <h2>Contact Information</h2>
+            <h3>Phone Number: +52 417 022 8027</h3>
+            <h3>Hours of opperation: Monday-Friday: 7:00am - 8:00pm, Saturday-Sunday: 9:00am - 6:00pm</h3>
+        </div>
+
+        <div class="form">
+            <form action="thankyou.html" method="get" class="join-form">
+                <fieldset>
+                    <h2>Contact us</h2>
+                    <label>First Name*<input type="text" name="fname" id="fname" title="Enter your first name"></label>
+                    <label>Last Name*<input type="text" name="lname" id="lname" title="Enter your last name"></label>
+                    <label>Email <input type="email" name="email" id="email" placeholder="someone@gmail.com"
+                            title="Enter your email address" required></label>
+                    <label class="top">Brief comments</label><textarea name="comments" id="business-description"
+                        cols="40" rows="5" placeholder="Enter a brif description of your business"></textarea>
+        </div>
+
+
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14947.545841767811!2d-86.95319297081056!3d20.510880164984258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59d632131167%3A0x7a59c6c766648401!2sFerry%20Ultramar%20Cozumel!5e0!3m2!1sen!2sus!4v1712686324484!5m2!1sen!2sus"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17779.48936876117!2d-86.98350758881345!3d20.478446485145348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57491a71c81d%3A0x6933058e58e0ee3d!2sPuerta%20Maya%20Cruise%20Ship%20Maritime%20Terminal!5e0!3m2!1sen!2sus!4v1712686188334!5m2!1sen!2sus"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <h2>Scoots Moter Scooter Rentals| Contact us: 555-555-5555
+        </h2>
+
+        <p> &copy;2024 Tyler Hulet | Wdd230 Project</p>
+        <p id="lastModified">
+            <script src="scripts/getdates.js"></script>
+        </p>
+    </footer>
+    <script src="scripts/navbutton.js"></script>
+    <script src="scripts/darkmode.js"></script>
+</body>
+
+</html>
