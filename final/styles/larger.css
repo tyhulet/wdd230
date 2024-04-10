@@ -36,4 +36,8 @@
         display: block;
         flex: 1 1 100%;
     }
+
+    .form {
+        margin-left: 550px;
+    }
 }
