@@ -18,7 +18,7 @@ header {
     display: flex;
     font-family: 'DM Serif Display', serif;
     justify-content: center;
-    background-color: #82C0CC;
+    background-color: #6FB5C3;
     padding: 1rem;
     width: 100%;
 }
@@ -46,7 +46,7 @@ footer {
     margin: auto;
     display: block;
     font-family: 'DM Serif Display', serif;
-    background-color: #82C0CC;
+    background-color: #6FB5C3;
     color: #000000;
     padding: 5px;
     width: 100%;
@@ -109,7 +109,7 @@ footer {
 .form {
     width: 450px;
     margin-top: 15px;
-    background-color: #82C0CC;
+    background-color: #6FB5C3;
     font-weight: bold;
     border-radius: 10px;
     margin-bottom: 50px;
@@ -136,13 +136,14 @@ footer {
 }
 
 .reservation {
-    width: 450px;
+    width: 400px;
     margin-top: 15px;
-    background-color: #82C0CC;
+    background-color: #6FB5C3;
     font-weight: bold;
     border-radius: 20px;
-    margin-bottom: 25px;
-
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 25px;
 }
 
 .reservation-form {
@@ -191,7 +192,7 @@ footer {
     margin: -1rem 2% 2rem 2%;
     margin-top: 10px;
     box-shadow: 1px 1px 4px lightslategrey;
-    margin-left: 25px;
+    margin-left: 15px;
     font-weight: bolder;
 }
 
@@ -205,4 +206,11 @@ footer {
 
 .reservation-form input[type="submit"]:hover {
     background-color: lightgray;
+}
+
+.agreement {
+    font-size: 225%;
+    margin-right: 45px;
+    text-align: center;
+    background-color: #6FB5C3;
 }

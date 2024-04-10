@@ -18,7 +18,7 @@
     }
 
     nav {
-        height: 50px;
+        height: 75px;
         flex-direction: row;
         margin-top: -17px;
     }
@@ -39,5 +39,26 @@
 
     .form {
         margin-left: 550px;
+    }
+
+
+    .reservation-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .reservation {
+        grid-column: 1;
+        grid-row: 1;
+        width: 550px;
+        margin-left: 25px;
+    }
+
+    .agreement {
+        font-size: 225%;
+        margin-right: 75px;
+        margin-top: 50px;
+        height: 900px;
     }
 }
