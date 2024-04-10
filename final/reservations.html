@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots Moter Rentals</title>
+    <meta name="author" content="Tyler Hulet">
+    <meta name="description" content="Scoots rental contact page">
+    <meta property="og:title" content="Scoots Moter Scooter Rentals">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://aws-tiqets-cdn.imgix.net/images/content/9176c9f9eda94768ab92335fe469bb87.jpg?auto=format&fit=crop&ixlib=python-3.2.1&q=70&s=3ad42de9126220182326360b87efb272">
+    <meta property="og:url" content="https://tyhulet.github.io/wdd230/final">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Scoots Moter Scooter Rentals</h1>
+        <div><button id="mode">DarkMode 🌕</button></div>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="reservation-grid">
+        <div class="reservation">
+            <form action="thankyou.html" method="get" class="reservation-form">
+                <fieldset>
+                    <h2>Reservation Info</h2>
+                    <label>First Name*<input type="text" name="fname" id="fname" title="Enter your first name"
+                            required></label>
+                    <label>Last Name*<input type="text" name="lname" id="lname" title="Enter your last name"
+                            required></label>
+                    <label for="home">Home state or country of origin
+                        <input type="text" id="title" name="title" pattern="[A-Za-z\s\-0-9]{7,}" required
+                            title="Title must be at least 7 characters long and can only contain alphanumeric characters, hyphens, and spaces."></label>
+                    <label>Email <input type="email" name="email" id="email" placeholder="someone@gmail.com"
+                            title="Enter your email address" required></label>
+                    <label>Phone Number <input type="tel" name="phone" id="phone" placeholder="123456789" required
+                            title="Enter a phone number"></label>
+                    <label>Cruise line <input type="text" name="cruise" id="cruise"
+                            title="Enter your curise line if applicable"></label>
+                    <label>Pick up date:</label> <input type="date" id="pick-up" name="pick-up">
+                    <label>Return date:</label> <input type="date" id="return" name="return">
+
+                    <h2>What Vehicles would you like to Rent</h2>
+                    <label class="sbs"><input type="checkbox" name="vehicles" value="metro">Metro Scooter</label>
+                    <label class="sbs"><input type="checkbox" name="vehicles" value="dio">Dio Scooter</label>
+                    <label class="sbs"><input type="checkbox" name="vehicles" value="pcx">PCX150 Scooter</label>
+                    <label class="sbs"><input type="checkbox" name="vehicles" value="atv">Pioneer ATV</label>
+                    <label class="sbs"><input type="checkbox" name="vehicles" value="4-door">Jeep Wrangler
+                        4-door</label>
+                    <label class="sbs"><input type="checkbox" name="vehicles" value="2-door">Jeep Wrangler
+                        2-door</label>
+                    <label class="top">Please share any special accommodations you may need, such as droping off at
+                        another location from the pick up area, pick up from your cruize line or delivery to an AIR
+                        BNB.</label><textarea name="special-accommodations" id="special-accommodations" cols="40"
+                        rows="5" placeholder="Need to return to the Terminal Puerta Maya location"></textarea>
+                    <label id="hidden">
+                        <input type="hidden" id="submissionTime" name="submissionTime" />
+                    </label>
+                </fieldset>
+                <input type="submit" value="Submit New Member Info">
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <h2>Scoots Moter Scooter Rentals| Contact us: 555-555-5555
+        </h2>
+        <p>Hours of opperation: Monday-Friday: 7:00am - 8:00pm, Saturday-Sunday: 9:00am - 6:00pm</p>
+
+        <p> &copy;2024 Tyler Hulet | Wdd230 Project</p>
+        <p id="lastModified">
+            <script src="scripts/getdates.js"></script>
+        </p>
+    </footer>
+    <script src="scripts/navbutton.js"></script>
+    <script src="scripts/darkmode.js"></script>
+</body>
+
+</html>
