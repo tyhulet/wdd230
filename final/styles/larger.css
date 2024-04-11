@@ -4,6 +4,29 @@
         width: auto;
     }
 
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .vehicle1 {
+        grid-column: 3;
+        margin-top: 10px;
+    }
+
+    .images {
+        margin-top: -475px;
+        margin-left: 15px;
+    }
+
+    .service {
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: -550px;
+        margin-left: 25px;
+    }
+
     p {
         font-family: "Bebas Neue, sans-serif";
         font-size: 16px;
@@ -60,5 +83,9 @@
         margin-right: 75px;
         margin-top: 50px;
         height: 900px;
+    }
+
+    .contact {
+        height: 315px;
     }
 }
