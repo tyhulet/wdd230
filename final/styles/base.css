@@ -121,7 +121,7 @@ footer {
 .contact {
     margin-top: 35px;
     background-color: #6FB5C3;
-    height: 350px;
+    height: fit-content;
     margin-left: 30px;
 }
 
